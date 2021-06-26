@@ -11,29 +11,9 @@
 
   <body>
     <main>
-      <div class="container">
-        <div class="inner-container">
-          <div
-            class="image-container"
-            style="
-              height: auto;
-              margin-top: 20px;
-
-              display: flex;
-              justify-content: center;
-            "
-          >
-            <div
-              style="
-                /* border: 2px solid white;
-                border-radius: 8%;
-                padding: 10px;
-                background-color: white; */
-              "
-            >
-              
-            </div>
-          </div>
+      <div class="container" id="new-background">
+        <div class="inner-container" style="position: relative">
+          <div class="image-container"></div>
           <div class="form-container">
             <form
               style="
@@ -46,24 +26,33 @@
                 <h2 style="text-align: center" class="blue">Glassmorphism</h2>
 
                 <div class="div-input">
-                  
                   <input type="text" placeholder="xyz@gmail.com" />
                 </div>
                 <div class="div-input">
-                 
-                  <input type="password" placeholder="Must have atleast 6 characters" />
+                  <input
+                    type="password"
+                    placeholder="Must have atleast 6 characters"
+                  />
                 </div>
                 <div class="div-input">
-                  <button style="width: 100%; padding: 7px; font-weight: 900">
+                  <button style="width: 100%; padding: 12px; font-weight: 900">
                     LOGIN
                   </button>
                 </div>
               </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  margin-top: 10px;
+                "
+                class="second-container"
+              >
+                <div>Forgot password?</div>
+                <div>Sign Up</div>
+              </div>
             </form>
-          </div>
-          <div style="display: flex; justify-content: space-between;" class="second-container">
-           <div>Forgot password?</div>
-           <div> Sign Up</div>
+            <div class="image-container2"></div>
           </div>
         </div>
       </div>
